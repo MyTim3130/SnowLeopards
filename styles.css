@@ -1,0 +1,518 @@
+body{
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+
+     
+     width: 100vw;
+
+     overflow-x: hidden;
+     background-color: antiquewhite;
+}
+
+#main{
+     height: 100vh;
+
+     background-color: antiquewhite;
+
+}
+
+h1{
+
+     display: flex;
+     justify-content: center;
+
+     margin: 0;
+     padding-top: 3vh;
+
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 3rem;
+}
+
+.nav{
+     
+     height: 6vh;
+
+     background-color: antiquewhite;
+
+     display: flex;
+     justify-content: space-between;
+
+     position: fixed;
+     width: 100vw;
+
+ 
+
+     top: 0;
+
+     z-index: 1000;
+     
+}
+
+#Home:hover{
+     cursor: pointer;
+}
+#Habitat:hover{
+     cursor: pointer;
+}
+#Threats:hover{
+     cursor: pointer;
+}
+#Numbers:hover{
+     cursor: pointer;
+}
+#Help:hover{
+     cursor: pointer;
+}
+
+
+#left{
+     display: flex;
+     align-items: center;
+}
+
+#left div{
+     padding-left: 5rem;
+
+     font-size: 1.3rem;
+}
+
+
+#right{
+     display: flex;
+     align-items: center;
+     
+}
+
+#right div{
+     padding-right: 5rem;
+
+     font-size: 1.3rem;
+}
+
+
+
+.nav-scroll{
+     height: 8vh;
+
+     background-color: aliceblue;
+
+     position: fixed;
+     width: 100vw;
+
+     top: 0;
+}
+
+
+#container{
+     height: 8vh;
+     width: 100vw;
+     background-color: antiquewhite;
+
+     
+}
+
+
+.firstImg{
+     height: 50vh;
+     width: 50vw;
+
+     background-color: aquamarine;
+
+     object-fit: cover;
+
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+}
+
+.first{
+
+     display: flex;
+
+     align-items: center;
+
+     justify-content: space-between;
+
+     padding-right: 10vw;
+
+     background-color: antiquewhite;
+
+}
+
+.firstSpan{
+     width: 25vw;
+     
+}
+
+
+
+
+
+
+
+.secondImg{
+     height: 50vh;
+     width: 50vw;
+
+     background-color: aquamarine;
+
+     object-fit: cover;
+
+     border-radius: 20px;
+     z-index: 600;
+}
+
+.second{
+
+     display: flex;
+
+     align-items: center;
+
+     justify-content: space-between;
+
+     padding-left: 10vw;
+
+     background-color: antiquewhite;
+     z-index: 600;
+
+}
+
+.secondSpan{
+     width: 25vw;
+     z-index: 600;
+}
+
+
+
+
+
+.thirdImg{
+     height: 50vh;
+     width: 50vw;
+
+     background-color: aquamarine;
+
+     object-fit: cover;
+
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+
+     z-index: 600;
+}
+
+.third{
+     z-index: 600;
+     display: flex;
+
+     align-items: center;
+
+     justify-content: space-between;
+
+     padding-right: 10vw;
+
+     background-color: antiquewhite;
+
+}
+
+.thirdSpan{
+     width: 25vw;
+     z-index: 600;
+}
+
+
+
+
+.centerLeft{
+     display: flex;
+     flex-direction: column;
+
+
+}
+
+
+.centerRight{
+     display: flex;
+     flex-direction: column;
+
+     text-align: end;
+}
+
+
+
+
+
+
+.four{
+     height: 100vh;
+
+     background-color: antiquewhite;
+
+     display: flex;
+     justify-content: center;
+
+     z-index: 500;
+}
+
+.fourImg{
+     display: flex;
+     justify-content: space-between;
+     
+     /*width: 100vw;*/
+     height: 100vh;
+
+    
+}
+
+.fourSpan{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     padding-top: 2rem;
+     position: absolute;
+     max-width: 30vw;
+}
+
+.fourSpan h3{
+     font-size: 5rem;
+}
+
+.fourImg1{
+     object-fit: cover;
+     
+}
+
+.fourImg2{
+     object-fit: cover;
+     
+}
+
+
+
+.imageHide{
+     position: relative;
+     z-index: 550;
+
+     background-color:antiquewhite;
+}
+
+
+.spanFont{
+     font-size: 1.2rem;
+}
+
+li{
+     margin-top: 2rem;
+     font-size: 1.2rem;
+}
+
+ul :nth-of-type(1){
+     margin-top: 0rem;
+}
+
+a{
+     z-index: 900;
+     font-size: .9rem;
+}
+
+
+
+
+.backg{
+     background-color: #8E8B82;
+     display: flex;
+ 
+     justify-content: center;
+     min-width: 30rem;
+     margin-top: 50px;
+ 
+     border-radius: 10px;
+ }
+ 
+ .backgcolor{
+     display: flex;
+     justify-content: center;
+ 
+ }
+
+ 
+.backgp{
+     display: flex;
+      
+      
+     background-color: #8E8B82;
+     width: 20em;
+     min-height: 1em;
+     border-radius: 1em;
+     font-size: 1em;
+     flex-direction: column;
+     padding: 1em;
+     word-wrap: break-word;
+ 
+     margin-top: 3rem;
+     margin-left: 70px;
+     margin-right: 70px;
+ 
+     flex-direction: column;
+ 
+     padding: 0;
+     padding-left: 1em;
+     padding-right: 1em;
+     padding-bottom: 1em;
+ }
+
+
+ .backgpcolor{
+     display: flex;
+     justify-content: center;   
+ 
+
+ }
+
+
+
+
+ .backgp h2{
+     display: flex;
+ 
+     font-size: 2rem;
+     margin: 0px;
+     
+     justify-content: center;
+ 
+     font-weight: 600;
+ }
+
+ 
+ 
+.max{
+     display: flex;
+     justify-content: center;
+     
+ }
+ 
+ 
+ .backgp p{
+     margin: 0px;
+     margin-top: 1.5em;
+
+     text-align: center;
+
+     font-size: 1.1rem;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ /* For tablets */
+@media screen and (max-width: 768px) {
+     h1 {
+         font-size: 2.5rem;
+     }
+ 
+     #left div,
+     #right div {
+         font-size: 1rem;
+         padding-left: 2rem;
+         padding-right: 2rem;
+     }
+ 
+     .firstImg,
+     .secondImg,
+     .thirdImg {
+         height: 40vh;
+         width: 100%;
+     }
+ 
+     .first,
+     .second,
+     .third {
+         flex-direction: column;
+         padding-left: 2rem;
+         padding-right: 2rem;
+     }
+ 
+     .firstSpan,
+     .secondSpan,
+     .thirdSpan {
+         width: 100%;
+         text-align: center;
+         margin-top: 1rem;
+     }
+ 
+     .fourSpan {
+         max-width: 80vw;
+     }
+ 
+     .backgp {
+         margin-left: 20px;
+         margin-right: 20px;
+     }
+ 
+     .max {
+         flex-direction: column;
+     }
+li{
+     font-size: 1rem;
+}
+ }
+ h3{
+     text-align: center;
+ }
+ 
+ /* For mobile phones */
+ @media screen and (max-width: 480px) {
+     h1 {
+         font-size: 2rem;
+     }
+ 
+     #left div,
+     #right div {
+         font-size: 0.9rem;
+         padding-left: 1.5rem;
+         padding-right: 1.5rem;
+     }
+ 
+     .firstImg,
+     .secondImg,
+     .thirdImg {
+         height: 30vh;
+         width: 100%;
+     }
+ 
+     .first,
+     .second,
+     .third {
+         flex-direction: column;
+         padding-left: 1rem;
+         padding-right: 1rem;
+     }
+ 
+     .firstSpan,
+     .secondSpan,
+     .thirdSpan {
+         width: 100%;
+         text-align: center;
+         margin-top: 1rem;
+     }
+ 
+     .fourSpan {
+         max-width: 90vw;
+     }
+ 
+     .backgp {
+         margin-left: 10px;
+         margin-right: 10px;
+     }
+ 
+     .max {
+         flex-direction: column;
+     }
+ }
+ 
