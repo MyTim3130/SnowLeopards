@@ -1,0 +1,118 @@
+body{
+     background-color: antiquewhite;
+
+     font-family:Arial, Helvetica, sans-serif ;
+
+     overflow: hidden;
+}
+
+.ul{
+     width: 100vw;
+     height: 100vh;
+
+     display: flex;
+     align-items: center;
+
+     flex-direction: column;
+
+     justify-content: center;
+
+     
+}
+
+li{
+     text-align:start;
+     font-size: 1.5rem;
+
+     margin: 1rem;
+}
+
+
+.nav{
+     
+     height: 6vh;
+
+     background-color: antiquewhite;
+
+     display: flex;
+     justify-content: space-between;
+
+     position: fixed;
+     width: 100vw;
+
+ 
+
+     top: 0;
+
+     z-index: 1000;
+     
+}
+
+#Home:hover{
+     cursor: pointer;
+}
+#Habitat:hover{
+     cursor: pointer;
+}
+#Threats:hover{
+     cursor: pointer;
+}
+#Numbers:hover{
+     cursor: pointer;
+}
+#Help:hover{
+     cursor: pointer;
+}
+
+
+#left{
+     display: flex;
+     align-items: center;
+}
+
+#left div{
+     padding-left: 5rem;
+
+     font-size: 1.3rem;
+}
+
+
+#right{
+     display: flex;
+     align-items: center;
+     
+}
+
+#right div{
+     padding-right: 5rem;
+
+     font-size: 1.3rem;
+}
+
+
+
+.nav-scroll{
+     height: 8vh;
+
+     background-color: aliceblue;
+
+     position: fixed;
+     width: 100vw;
+
+     top: 0;
+}
+
+
+
+#vocab:hover{
+     cursor: pointer;
+
+    
+}
+
+#vocab{
+     text-decoration: none;
+     color: black;
+     font-size: 1.3rem;
+}
+

@@ -402,7 +402,17 @@ a{
 
 
 
+#vocab:hover{
+     cursor: pointer;
 
+    
+}
+
+#vocab{
+     text-decoration: none;
+     color: black;
+     font-size: 1.3rem;
+}
 
 
 
